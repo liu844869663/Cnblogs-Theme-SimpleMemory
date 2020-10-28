@@ -43,10 +43,10 @@
 
 #sideCatalog-catalog {
     position: relative;
-    font-size: 14px;
+    font-size: 12px;
     background: rgba(255, 255, 255, 1);
     overflow: visible;
-    max-height: 90vh;
+    max-height: 95vh;
     padding: 5px;
 }
 
