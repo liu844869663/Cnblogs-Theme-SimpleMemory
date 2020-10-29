@@ -106,11 +106,11 @@
 /*加一只上吊的小猫咪~*/
 .cd-top{
     position: fixed;
-    right: 25px;
+    right: 20px;
     top: -900px;
     z-index: 99;
-    width: 70px;
-    height: 600px;
+    width: 40px;
+    height: 500px;
     background: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/scroll.png) no-repeat center;
     background-size: contain;
     -webkit-transition: all .5s ease-in-out;
