@@ -59,7 +59,7 @@ $(document).ready(function () {
         }
 
         // 标题大于30个字符则进行截取
-        if(titleContent.length > 30) titleContent = titleContent.substr(0,30) + "...";
+        // if(titleContent.length > 30) titleContent = titleContent.substr(0,30) + "...";
         titleContent = tools.HTMLEncode(titleContent);
         // 如果开启了给标题添加序号则在导航上面也添加
         let itemText = lserialNum === null && rserialNum === null ? titleContent : lserialNum + '.' + rserialNum + '&nbsp;&nbsp;' + titleContent;
