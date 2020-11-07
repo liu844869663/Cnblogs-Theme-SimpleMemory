@@ -1,8 +1,9 @@
 #sideToolbar {
     position: absolute;
     top: 0;
-    right: 0;
-    z-index: 1
+    right: 7px !important;
+    z-index: 1;
+    width: 23%;
 }
 
 .sideToolbarFix {
