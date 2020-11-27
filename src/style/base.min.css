@@ -88,7 +88,7 @@
 }
 
 .container .menu-wrap{
-    width:350px;
+    width:420px;
     -webkit-transform: translate3d(-420px,0,0);
     transform: translate3d(-420px,0,0);
 }
@@ -115,7 +115,7 @@
     background-size: contain;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    cursor: url(https://blog-static.cnblogs.com/files/lifullmoon/cursor.ico),auto;
+    cursor: url(https://files-cdn.cnblogs.com/files/miluluyo/cursor.ico),auto;
     opacity: 1;
 }
 .cd-top.cd-is-visible {
@@ -187,4 +187,6 @@ h1 .dev__developer,h2 .dev__developer{
     display: block !important;
 }
 
-#sideCatalog-catalog
+.page-author {
+    display: block !important;
+}

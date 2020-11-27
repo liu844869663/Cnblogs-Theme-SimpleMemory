@@ -68,8 +68,34 @@
             "https://cdn.jsdelivr.net/gh/liu844869663/Cnblogs-Theme-SimpleMemory@master/img/artcle-bg-01.jpg",
             "https://cdn.jsdelivr.net/gh/liu844869663/Cnblogs-Theme-SimpleMemory@master/img/artcle-bg-02.bmp",
         ],
-        advertising: false
-    }
+        advertising: false,
+        essaySuffix: {
+            aboutHtml: "山鸟与鱼不同路，从此山水不相逢",
+        },
+    };
+    // 钩子配置
+    window.cnblogsConfig.hook = {
+        // loading 开始前
+        beforeLoading: function (loading) {
+            console.log('beforeLoading');
+        },
+        // loading 结束后
+        afterLoading: function (e, loading) {
+            console.log('afterLoading');
+        },
+        // 页面标签变化
+        pageLabelChanges: function (e, text) {
+            console.log('pageLabelChanges');
+        },
+        // 渲染代码开始前
+        beforeCodeHighlighting: function (e) {
+            console.log('beforeCodeHighlighting');
+        },
+        // 渲染代码结束后
+        afterCodeHighlighting: function (e) {
+            console.log('afterCodeHighlighting');
+        },
+    };
 </script>
 <script src="https://cdn.jsdelivr.net/gh/liu844869663/Cnblogs-Theme-SimpleMemory@v1.3.4/src/script/simpleMemory.min.js" defer></script>
 
